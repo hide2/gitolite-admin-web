@@ -1,1 +1,12 @@
-index
+<%
+  File.open GITOLITE_ADMIN_CONF_FILE do |f|
+    f.each do |l|
+%>
+<%=
+      l
+%>
+<br/>
+<%
+    end
+  end
+%>
