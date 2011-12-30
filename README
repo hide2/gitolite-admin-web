@@ -1,6 +1,5 @@
 gitolite-admin-web is Web based gitolite-admin, written in Ruby.
-
-After you finish the setup of gitolite and gitgitolite-admin:
+After you finish the setup of gitolite and gitolite-admin:
 
 > git clone git://github.com/hide2/gitolite-admin-web.git && cd gitolite-admin-web
 > sh install.sh
