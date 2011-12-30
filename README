@@ -1,1 +1,9 @@
 gitolite-admin-web is Web based gitolite-admin, written in Ruby.
+
+### Install
+sh install.sh
+
+### Start Server
+sh start.sh
+
+Open browser and access http://localhost:4567
