@@ -1,1 +1,2 @@
-bundle install
+bundle
+rm Gemfile.lock
