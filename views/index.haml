@@ -1,5 +1,7 @@
-%a(href="/repos") repos
-<br/>
-%a(href="/groups") groups
-<br/>
-%a(href="/users") users
+%h1 Hosted Repositories:
+%ul
+- @repos.keys.each do |r|
+  %li
+    = r
+%br
+%a(href="/repos" class="btn primary large")Manage &raquo;

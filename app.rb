@@ -29,6 +29,7 @@ class App < Sinatra::Base
   GITOLITE_ADMIN_CONF_FILE = "#{GITOLITE_ADMIN_CONF}/gitolite.conf"
 
   get '/' do
+    @repos = Ga.repos
     haml :index
   end
 
